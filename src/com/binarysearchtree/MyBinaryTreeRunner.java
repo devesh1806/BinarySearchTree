@@ -27,7 +27,9 @@ public class MyBinaryTreeRunner {
 			if (flag == 1) break;
 		}
 		System.out.println("The Size of Binary Tree is " + myBinaryTree.size());
+		myBinaryTree.search(63);
 		System.out.println("Binary Tree Nodes: ");
 		myBinaryTree.printTree();
+		
 	}
 }
